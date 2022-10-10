@@ -1,0 +1,30 @@
+{
+    "workbench.colorTheme": "Default High Contrast",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.quickSuggestionsDelay": 1000,
+    "editor.quickSuggestions": {
+      "other": "on",
+      "comments": "off",
+      "strings": true
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true,
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
+    },
+    "[javascript]": {
+      "editor.maxTokenizationLineLength": 2500,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+  }

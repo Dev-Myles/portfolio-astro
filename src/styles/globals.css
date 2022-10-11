@@ -1,0 +1,42 @@
+
+
+body{
+    scroll-behavior: smooth;
+    background: linear-gradient(to bottom right, #f9d976, #f39f86);
+   min-height: 100vh;
+    overflow-x: hidden;
+
+    background-repeat: no-repeat;
+    color: black;
+    font-family: "HindSiliguri-Light";
+}   
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Poppins-ExtraBold"
+}
+
+@font-face {
+    font-family: 'HindSiliguri-Regular';
+    src: url("/fonts/HindSiliguri-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'HindSiliguri-Light';
+    src: url("/fonts/HindSiliguri-Light.ttf");
+}
+@font-face {
+    font-family:  "Poppins-ExtraBold";
+    src: url("/fonts/Poppins-ExtraBold.ttf");
+}
+@font-face {
+    font-family: "Poppins-ExtraLight" ;
+    src: url("/fonts/Poppins-ExtraLight.ttf");
+}
+@font-face {
+    font-family:  "Poppins-Regular";
+    src: url("/fonts/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto-Light";
+    src: url("/fonts/Roboto-Light.ttf");
+}

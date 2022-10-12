@@ -1,0 +1,34 @@
+{
+    "projects":[{
+        "name": "RBG Website",
+        "desc": "The officail RBG Website  Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nisi porro laboriosam, minima laborum culpa consequuntur quo eligendi molestiae possimus veritatis dolores vel deserunt sapiente debitis commodi ducimus officia neque.",
+        "links":{
+            "live": "//www.rockbottomguild.com",
+            "repo": "//www.gitfront.com"
+        },
+        "libraries": ["nextjs", "reactjs"],
+        "video": "/videos/rbgnextjs.mp4"
+    },
+    {
+        "name": "RBG Website",
+        "desc": "The officail RBG Website Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nisi porro laboriosam, minima laborum culpa consequuntur quo eligendi molestiae possimus veritatis dolores vel deserunt sapiente debitis commodi ducimus officia neque.",
+        "links":{
+            "live": "//www.rockbottomguild.com",
+            "repo": "//www.gitfront.com"
+        },
+        "libraries": ["nextjs", "reactjs"],
+        "video": "/videos/rbgnextjs.mp4"
+    },
+    {
+        "name": "RBG Website",
+        "desc": "The officail RBG Website Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nisi porro laboriosam, minima laborum culpa consequuntur quo eligendi molestiae possimus veritatis dolores vel deserunt sapiente debitis commodi ducimus officia neque.",
+        "links":{
+            "live": "//www.rockbottomguild.com",
+            "repo": "//www.gitfront.com"
+        },
+        "libraries": ["nextjs", "reactjs"],
+        "video": "/videos/rbgnextjs.mp4"
+    }
+]
+}
+

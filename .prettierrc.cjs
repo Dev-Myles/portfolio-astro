@@ -6,7 +6,7 @@ module.exports = {
     singleQuote: true,
     overrides: [
         {
-            files: '*.astro',
+            files: ['*.astro', '*.tsx'],
             options: {
                 parser: 'astro',
             },

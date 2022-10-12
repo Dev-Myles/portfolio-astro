@@ -1,10 +1,16 @@
 ---
 import Layout from '../layouts/Layout.astro'
 import Banner from '../components/content/Banner.astro'
+import Projects from '../components/content/Projects'
 ---
 
 <Layout>
-    <main class="">
+    <main class="relative">
         <Banner />
+        <div
+            class="before:h-2 before:absolute before:w-screen before:skew-y-[44deg] before:z-[-1] before:bg-gray-200 relative before:top-0 before:right-72 after:h-1 after:absolute after:w-full after:skew-y-[15deg] after:z-[-1] after:bg-gray-200 after:top-72"
+        >
+            <Projects client:load />
+        </div>
     </main>
 </Layout>

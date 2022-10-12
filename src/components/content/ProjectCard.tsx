@@ -1,6 +1,5 @@
 import type { ProjectsState } from "./Projects"
 import createKey from '../../util/keyId';
-import {AiOutlineClose} from 'react-icons/ai'
 
 export interface CardProps{
     toggleState: (card: ProjectsState) => void
@@ -34,7 +33,7 @@ const ProjectCard: React.FC<CardProps> = ({toggleState, name, desc, links, libra
                 <div className="flex flex-col p-4 bg-white w-11/12 lg:w-1/2 mx-auto rounded-lg" >
             <div className="flex justify-end items-center">
             <div className="w-fit h-fit rounded-full mb-2 p-2 bg-gray-200 hover:bg-slate-300 duration-300 hover:cursor-pointer" onClick={()=>toggleState(thisCard)}>
-                <AiOutlineClose/>
+              
             </div>
             </div>
             <div className="flex flex-col  justify-around lg:flex-row-reverse overflow-y-scroll">

@@ -4,6 +4,7 @@
         "plugin:astro/recommended",
         "eslint:recommended"
     ],
+      "plugins":["@typescript-eslint"],
     // ...
     "overrides": [
         {
@@ -15,8 +16,16 @@
             // It's the setting you need when using TypeScript.
             "parserOptions": {
                 "parser": "@typescript-eslint/parser",
-                "extraFileExtensions": [".astro"]
+                "extraFileExtensions": [".astro"],
+                "ecmaVersion": "latest",
+                
+        "sourceType": "module"
+    
             },
+          
+             "env": {
+        "es6": true
+    },
             "rules": {
                 "no-unused-vars": [
                     1,

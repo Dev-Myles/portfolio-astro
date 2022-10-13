@@ -2,13 +2,14 @@
 
 body{
     scroll-behavior: smooth;
-    background: linear-gradient(to bottom right, #f9d976, #f39f86);
+    /* background: linear-gradient(to bottom right, #ffde7b, #f39f86); */
+    background: linear-gradient(to bottom right, #619ccc, #a7c5e2);
    min-height: 100vh;
     overflow-x: hidden;
 
     background-repeat: no-repeat;
     color: black;
-    font-family: "HindSiliguri-Light";
+    font-family: "HindSiliguri-Regular";
 }   
 
 h1, h2, h3, h4, h5, h6{

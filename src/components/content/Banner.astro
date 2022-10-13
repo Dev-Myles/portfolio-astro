@@ -1,13 +1,16 @@
 <div
-    class="relative h-screen sm:h-[40vh] lg:h-[75vh] flex justify-center flex-col sm:my-24 md:my-0"
+    class="relative min-h-screen sm:h-[40vh] lg:h-[75vh] flex justify-center flex-col sm:my-24 md:my-0"
 >
     <div
         class="flex flex-col md:flex-row justify-center items-center before:h-2 before:absolute before:w-screen before:skew-y-[6deg] before:z-[-1] before:bg-gray-200 relative before:top-0 after:h-1 after:absolute after:w-full after:-skew-y-[22deg] after:z-[-1] after:bg-gray-200 after:top-72"
     >
         <div class="px-8 pt-0 mt-10">
             <h1 class="text-6xl lg:text-8xl mb-3 lg:mb-5">Better Together.</h1>
-            <p class="text-4xl lg:text-4xl font-HindReg">
-                Building our future one line of code at a time.
+            <p class="text-4xl lg:text-4xl font-HindLight">
+                I'm <span class="text-white font-bold">Myles</span>, welcome to
+                my portfolio! I think <span class="text-white font-bold"
+                    >we'd</span
+                > make a good match.
             </p>
         </div>
         <div class="relative pointer-events-none">
@@ -20,11 +23,16 @@
                 allowfullscreen></iframe>
         </div>
     </div>
+
     <div
-        class="w-fit sm:mt-3 lg:mt-12 [&>button]:text-black flex flex-wrap justify-center [&>button]:font-PopBold [&>button]:shadow-md [&>button]:ease-in-out [&>button]:duration-300 [&>button:hover]:scale-105 lg:[&>button]:text-2xl [&>button]:mx-4 [&>button]:px-4 [&>button]:py-2 [&>button]:rounded-full [&>button]:bg-white mx-auto"
+        class="w-fit mt-3 lg:mt-12 [&>button]:my-1 [&>button]:text-black flex flex-wrap justify-center [&>button]:font-PopBold [&>button]:shadow-md [&>button]:ease-in-out [&>button]:duration-300 [&>button:hover]:scale-105 lg:[&>button]:text-2xl [&>button]:mx-4 [&>button]:px-4 [&>button]:py-2 [&>button]:rounded-full [&>button]:bg-white mx-auto"
     >
-        <button class="">Projects</button>
-        <button class="">Tech</button>
-        <button class="">About</button>
+        <button id="projectBtn">Projects</button>
+        <button id="techBtn">Tech</button>
+        <button id="aboutBtn">About Me</button>
     </div>
 </div>
+
+<script>
+    import '../../scripts/scrollBtn'
+</script>

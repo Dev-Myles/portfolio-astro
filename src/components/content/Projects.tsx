@@ -15,6 +15,9 @@ export interface ProjectsState{
         live:string
     }
     video:string
+    projectType: string
+    live: string
+    dateCompleted: string
 }
 
 const initialState: ProjectsState = {
@@ -26,7 +29,10 @@ const initialState: ProjectsState = {
         repo: '',
         live: ''
     },
-    video: ''
+    video: '',
+    projectType: '',
+    live: '',
+    dateCompleted: ''
 
 }
 
@@ -46,15 +52,18 @@ function setProjectState(card: ProjectsState){
         repo: card.links.repo,
         live: card.links.live
     },
-    video: card.video
+    video: card.video,
+    projectType: card.projectType,
+    live: card.live,
+    dateCompleted: card.dateCompleted
         })
     }
 }
 
 if(!isCard.selected){
     return(
-<div className="flex flex-col ">
-    <h2 className='text-4xl lg:text-6xl text-center  w-fit shadow-md rounded-3xl  mx-auto mb-5 p-4 px-8 bg-white'>Projects</h2>
+<div className="flex flex-col mb-5">
+    <h2 className='text-4xl lg:text-6xl text-center  w-fit shadow-md rounded-3xl  mx-auto mb-5 py-2 px-8 bg-white'>Projects</h2>
     <div className='flex flex-wrap justify-center'>
             {
         projectInfo.projects.map((e) => {
@@ -68,6 +77,9 @@ if(!isCard.selected){
                     links={e.links}
                     video={e.video}
                     stateType={isCard.selected}
+                    projectType={e.projectType}
+                    dateCompleted={e.dateCompleted}
+                    live={e.live}
                 />
             )
               
@@ -80,8 +92,8 @@ if(!isCard.selected){
 }
 
     return (
-        <>
-    <h2 className='text-4xl lg:text-6xl text-center  w-fit shadow-md rounded-3xl  mx-auto mb-5 p-4 px-8 bg-white'>Project: {isCard.name}</h2>
+        <div className='mb-5'>
+    <h2 className='text-2xl sm:text-4xl lg:text-6xl text-center  w-fit shadow-md rounded-3xl  mx-auto mb-5 py-2 px-8 bg-white'>Project: {isCard.name}</h2>
                     <ProjectCard         
         key={createKey()}
                     name={isCard.name}
@@ -91,10 +103,13 @@ if(!isCard.selected){
                     links={isCard.links}
                     video={isCard.video}
                     stateType={isCard.selected}
+                    projectType={isCard.projectType}
+                    dateCompleted={isCard.dateCompleted}
+                    live={isCard.live}
                     
                     />
         
-        </>
+        </div>
 
     )
 }

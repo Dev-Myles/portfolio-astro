@@ -12,7 +12,7 @@
         "dev": "cross-env NODE_OPTIONS='--inspect' astro dev",
         "start": "astro dev",
         "build": "astro build",
-        "lint": "eslint --ext .ts,.js,.astro src",
+        "lint": "eslint ./src --ext .ts,.js,.astro",
         "prettier": "prettier --write .",
         "preview": "astro preview",
         "astro": "astro"
@@ -21,6 +21,7 @@
         "@astrojs/react": "^1.2.0",
         "@astrojs/tailwind": "^2.0.2",
         "@types/react": "^18.0.21",
+        "@typescript-eslint/eslint-plugin": "^5.40.0",
         "@typescript-eslint/parser": "^5.39.0",
         "astro": "^1.4.6",
         "cross-env": "^7.0.3",
@@ -31,7 +32,6 @@
         "prettier-plugin-astro": "^0.5.5",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
-        "react-icons": "^4.4.0",
         "tailwindcss": "^3.1.8",
         "uuid": "^9.0.0"
     },

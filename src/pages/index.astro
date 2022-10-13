@@ -33,3 +33,56 @@ import Buttons from '../components/structure/Buttons.astro'
         </div>
     </main>
 </Layout>
+
+<script>
+    const emailDiv = document.getElementById('copyEmail')
+    emailDiv?.addEventListener('click', function () {
+        navigator.clipboard.writeText('mylessworkemail@gmail')
+        this.innerText = 'Copied!'
+    })
+
+    const positionIds = ['banner', 'projects', 'tech', 'about']
+    let currentPosition = 0
+    const upBtn = document.getElementById('upBtn')
+    const downBtn = document.getElementById('downBtn')
+    const bannerIds = ['projectBtn', 'techBtn', 'aboutBtn']
+
+    bannerIds.forEach((e, i) => {
+        const ele = document.getElementById(e)
+        const tab = positionIds[i + 1]
+        ele?.addEventListener('click', () =>
+            tab
+                ? [
+                      document
+                          .getElementById(tab)
+                          ?.scrollIntoView({ behavior: 'smooth' }),
+                      (currentPosition = positionIds.indexOf(tab)),
+                  ]
+                : null
+        )
+    })
+
+    upBtn?.addEventListener('click', function () {
+        if (currentPosition > 0) {
+            currentPosition--
+            const spot = positionIds[currentPosition]
+            spot
+                ? document
+                      .getElementById(spot)
+                      ?.scrollIntoView({ behavior: 'smooth' })
+                : console.log('not working')
+        }
+    })
+
+    downBtn?.addEventListener('click', function () {
+        if (currentPosition < positionIds.length - 1) {
+            currentPosition++
+            const spot = positionIds[currentPosition]
+            spot
+                ? document
+                      .getElementById(spot)
+                      ?.scrollIntoView({ behavior: 'smooth' })
+                : console.log('not working')
+        }
+    })
+</script>

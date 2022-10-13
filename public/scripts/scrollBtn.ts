@@ -1,7 +1,7 @@
 /* eslint-env es6 */
 /* eslint-disable */
 
-const scrollScript = (function(){
+
     const positionIds = ['banner','projects', 'tech', 'about']
 let currentPosition = 0;
 const upBtn = document.getElementById('upBtn')
@@ -41,11 +41,11 @@ downBtn?.addEventListener('click', buttonClick)
                 
         }
     }
-})()
 
 
 
-export default scrollScript
+
+export {}
 
 
 

@@ -2,7 +2,6 @@
 
 body{
     scroll-behavior: smooth;
-    /* background: linear-gradient(to bottom right, #ffde7b, #f39f86); */
     background: linear-gradient(to bottom right, #619ccc, #a7c5e2);
    min-height: 100vh;
     overflow-x: hidden;

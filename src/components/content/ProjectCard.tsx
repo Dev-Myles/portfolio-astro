@@ -60,7 +60,7 @@ const ProjectCard: React.FC<CardProps> = ({toggleState, name, desc, links, libra
                     <video  controls src={video} />
                 </div>
                 <div className="lg:w-1/2 lg:px-3 lg:mr-1">
-                    <div className="flex justify-around my-3">
+                    <div className="flex justify-around my-3 text-lg">
                     
                    
                    
@@ -81,7 +81,7 @@ const ProjectCard: React.FC<CardProps> = ({toggleState, name, desc, links, libra
                             </span>
                         </div>
                     </div>
-                    <p className="overflow-y-scroll h-60 sm:h-fit sm:overflow-y-hidden lg:overflow-y-scroll lg:h-48 mb-3">{desc}</p>
+                    <p className="overflow-y-scroll text-lg h-60 sm:h-fit sm:overflow-y-hidden lg:overflow-y-scroll lg:h-48 mb-3">{desc}</p>
                         <h4 className="text-center">Tech Used:</h4>
                     <ul className="[&>li]:inline flex justify-center flex-wrap [&>li]:mx-2">
                         {libraries.map((e)=><li className='flex h-fit text-xl align-middle justify-center items-center' key={createKey()}>{e} {imageMap.get(e)}</li>)}

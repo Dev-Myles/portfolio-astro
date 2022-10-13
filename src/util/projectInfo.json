@@ -1,43 +1,69 @@
 {
-    "projects":[{
-        "name": "RBG Website",
-        "projectType": "Landing Page",
-        "dateCompleted": "Updated 5/22",
-        "live": "Yes",
-        "desc": "The officail RBG Website  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. overflow-y-scroll overflow-y-scroll overflow-y-scroll overflow-y-scroll overflow-y-scroll overflow-y-scroll overflow-y-scroll overflow-y-scroll overflow-y-scroll overflow-y-scroll  Totam nisi porro laboriosam, minima laborum culpa consequuntur quo eligendi molestiae possimus veritatis dolores vel deserunt sapiente debitis commodi ducimus officia neque.",
-        "links":{
-            "live": "//www.rockbottomguild.com",
-            "repo": "//www.gitfront.com"
-        },
-        "libraries": ["NextJs", "React-Hooks"],
-        "video": "/videos/rbgnextjs.mp4"
+    "projects":[
+        {
+    "name": "Code Cards",
+    "live": "yes",
+    "projectType": "Web-App",
+    "dateCompleted": "9/22",
+    "video": "/videos/CodeCards.mp4",
+    "desc": "Code Cards is a web-app built to help developers share their software projects in real life. Developers are asked all the time, 'So what are you working on?'. Code Cards is here to help! Built using the T3 stack (TypeScript, TailwindCSS, tRPC, React-Hooks, Prisma ORM, PostgreSQL).",
+     "links":{
+        "live": "https://steel-t3.vercel.app/",
+        "repo": "https://gitfront.io/r/dev-myles/NrhjoJF1BTXY/steel-t3/"
+     },
+        "libraries": ["NextJs", "React-Hooks", "TailwindCss", "TypeScript", "tRPC", "Prisma", "PostgreSql", "Inkscape", "OAuth", "Html"]
+
+  },
+
+  {
+    "name": "RBG E-store",
+    "projectType": "E-Store",
+    "live": "yes",
+    "dateCompleted": "6/22",
+    "video": "/videos/rbgstorepreview.mp4",
+    "desc": "Rock Bottom Guild Store is a proof of concept/mock up of an online store for the Rock Bottom Guild brand. It was created using Next.Js, React-Hooks, Postgresql with Prisma, and is hosted through Vercel. Users can view, select, and mock purchase products using PayPal sandbox account credentials, and contact the site's maintainers using the contact form.",
+    "links":{
+        "live": "https://prolangs-next.vercel.app/",
+        "repo": "https://gitfront.io/r/dev-myles/9LMixXgfHwBm/prolangs-next/"
+
     },
-    {
-        "name": "RBG Website",
-        "projectType": "Landing Page",
-        "dateCompleted": "Updated 5/22",
-        "live": "Yes",
-        "desc": "The officail RBG Website Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. overflow-y-scroll overflow-y-scroll overflow-y-scroll overflow-y-scroll overflow-y-scroll overflow-y-scroll overflow-y-scroll overflow-y-scroll overflow-y-scroll overflow-y-scroll  Totam nisi porro laboriosam, minima laborum culpa consequuntur quo eligendi molestiae possimus veritatis dolores vel deserunt sapiente debitis commodi ducimus officia neque.",
-        "links":{
-            "live": "//www.rockbottomguild.com",
-            "repo": "//www.gitfront.com"
-        },
-        "libraries": ["NextJs", "React-Hooks"],
-        "video": "/videos/rbgnextjs.mp4"
+        "libraries": ["NextJs", "React-Hooks", "CSS", "Inkscape", "JavaScript", "PostgreSql", "Prisma"]
+
+  },
+  {
+    "name": "Dungeon Builder",
+    "projectType": "Web-App",
+    "live": "To be retired 11/22",
+    "dateCompleted": "2/22",
+    "video": "/videos/dungeonbuilder.mp4",
+    "desc": "Dungeon Builder is a website that helps people deepen their table top fantasy game experience. Users can create, edit, and delete documents like weapons and armor (and many more) by using the site's easy to fill out forms. Uses email verification, JWTs, session cookies, validation, and sanitization.",
+     "links":{
+        "live": "https://dungeon-builder.herokuapp.com/",
+        "repo": "https://gitfront.io/r/dev-myles/53dd256bc61466da0979e9b8ebb3a122c2aa984f/dndbuilder/"
+        
     },
-    {
-        "name": "RBG Website",
-        "projectType": "Landing Page",
-        "dateCompleted": "Updated 5/22",
-        "live": "Yes",
-        "desc": "The officail RBG Website Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. overflow-y-scroll overflow-y-scroll overflow-y-scroll overflow-y-scroll overflow-y-scroll overflow-y-scroll overflow-y-scroll overflow-y-scroll overflow-y-scroll overflow-y-scroll  Totam nisi porro laboriosam, minima laborum culpa consequuntur quo eligendi molestiae possimus veritatis dolores vel deserunt sapiente debitis commodi ducimus officia neque.",
-        "links":{
-            "live": "//www.rockbottomguild.com",
-            "repo": "//www.gitfront.com"
-        },
-        "libraries": ["NextJs", "React-Hooks"],
-        "video": "/videos/rbgnextjs.mp4"
-    }
+        "libraries": ["CSS", "Html", "Inkscape", "EJS", "JQuery", "PassportJs", "JWT", "ExpressJs", "MongoDb", "JavaScript"]
+
+  },
+  {
+    "name": "Rock Bottom Guild",
+    "projectType": "Landing Page",
+    "live": "yes",
+    "dateCompleted": "Updated 5/22",
+    "video": "/videos/rbgnextjs.mp4",
+    "desc": "Rock Bottom Guild is a local fabricator that specializes in creating custom hitch signs while offering other services. Users can view past projects and fill out the contact form to get more information. This site is a NextJs app hosted with Vercel.",
+     "links":{
+        "live": "https://www.rockbottomguild.com",
+        "repo":"https://gitfront.io/r/dev-myles/574be257efe50ba359f8359cad9c60f14a1c02ef/Rockbottomguild/"
+    },
+
+        "libraries": ["NextJs", "React-Hooks", "CSS", "Inkscape", "JavaScript", "Html"]
+
+  }
+
+
 ]
 }
 
+
+    
